@@ -19,6 +19,7 @@ import com.matrix.applock.ui.vault.intent.VaultSelectorIntentHelper
 import com.matrix.applock.util.ads.AdTestDevices
 import com.matrix.applock.util.helper.file.FilePathHelper
 import com.tbruyelle.rxpermissions2.RxPermissions
+import com.matrix.applock.R
 
 
 class VaultActivity : BaseActivity<VaultViewModel>() {

@@ -12,8 +12,6 @@ import com.andrognito.patternlockview.PatternLockView
 import com.daimajia.androidanimations.library.Techniques
 import com.daimajia.androidanimations.library.YoYo
 import com.google.android.gms.ads.*
-import com.matrix.app.security.applocker.R
-import com.matrix.app.security.applocker.databinding.ActivityOverlayValidationBinding
 import com.matrix.applock.databinding.ActivityOverlayValidationBinding
 import com.matrix.applock.ui.BaseActivity
 import com.matrix.applock.ui.intruders.camera.FrontPictureLiveData
@@ -25,6 +23,8 @@ import com.matrix.applock.util.ads.AdTestDevices
 import com.matrix.applock.util.extensions.convertToPatternDot
 import com.matrix.applock.util.helper.file.FileManager
 import javax.inject.Inject
+import com.matrix.applock.R
+
 
 
 class OverlayValidationActivity : BaseActivity<OverlayValidationViewModel>() {

@@ -5,6 +5,7 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import androidx.lifecycle.Observer
+import com.matrix.applock.R
 import com.google.android.gms.ads.*
 import com.matrix.applock.databinding.FragmentSecurityBinding
 import com.matrix.applock.ui.BaseFragment

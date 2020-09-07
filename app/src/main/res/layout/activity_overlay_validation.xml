@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<layout>
+<layout xmlns:tools="http://schemas.android.com/tools">
 
     <data>
 
@@ -13,6 +13,7 @@
         android:id="@+id/layoutOverlayMain"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
+        tools:context=".ui.overlay.activity.OverlayValidationActivity"
         android:background="@drawable/bg_gradient_main"
         android:orientation="vertical">
 
