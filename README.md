@@ -1,6 +1,6 @@
 <h1 align="center"> Applock </h1>
 
-[![Language](https://img.shields.io/badge/kotlin-awesome-blue/it5prasoon/Applock?branch=master)](https://kotlinlang.org/)
+[![Language](https://img.shields.io/badge/java_kotlin-awesome-blue/it5prasoon/Applock?branch=master)](https://kotlinlang.org/)
 [![Layout](https://img.shields.io/badge/fragment-layout-important/it5prasoon/Applock?branch=master)](https://developer.android.com/training/basics/fragments/creating)
 [![Android](https://img.shields.io/badge/android-all-success/it5prasoon/Applock?branch=master)](https://developer.android.com/) 
 
