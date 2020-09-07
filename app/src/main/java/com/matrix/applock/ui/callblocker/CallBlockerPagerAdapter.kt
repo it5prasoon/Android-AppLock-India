@@ -4,7 +4,7 @@ import android.content.Context
 import androidx.fragment.app.Fragment
 import androidx.fragment.app.FragmentManager
 import androidx.fragment.app.FragmentPagerAdapter
-import com.matrix.app.security.applocker.R
+import com.matrix.applock.R
 import com.matrix.applock.ui.callblocker.blacklist.BlackListFragment
 import com.matrix.applock.ui.callblocker.log.CallLogFragment
 import com.matrix.applock.ui.security.SecurityFragment

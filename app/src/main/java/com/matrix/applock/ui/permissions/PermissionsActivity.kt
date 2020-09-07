@@ -5,10 +5,10 @@ import android.content.Context
 import android.content.Intent
 import android.os.Bundle
 import androidx.databinding.DataBindingUtil
-import com.matrix.app.security.applocker.databinding.ActivityPermissionsBinding
 import com.matrix.applock.ui.BaseActivity
 import android.provider.Settings
-import com.matrix.app.security.applocker.R
+import com.matrix.applock.R
+import com.matrix.applock.databinding.ActivityPermissionsBinding
 import com.matrix.applock.service.notification.ServiceNotificationManager
 import com.matrix.applock.util.extensions.toast
 import javax.inject.Inject

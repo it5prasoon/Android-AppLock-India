@@ -1,7 +1,7 @@
 package com.matrix.applock.ui.newpattern
 
 import android.content.Context
-import com.matrix.app.security.applocker.R
+import com.matrix.applock.R
 import com.matrix.applock.ui.newpattern.CreateNewPatternViewModel.PatternEvent.*
 
 data class CreateNewPatternViewState(val patternEvent: CreateNewPatternViewModel.PatternEvent) {

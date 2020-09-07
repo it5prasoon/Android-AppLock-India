@@ -5,8 +5,8 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import androidx.appcompat.app.AppCompatDialogFragment
-import com.matrix.app.security.applocker.R
-import com.matrix.app.security.applocker.databinding.DialogPrivacyPolicyBinding
+import com.matrix.applock.R
+import com.matrix.applock.databinding.DialogPrivacyPolicyBinding
 import com.matrix.applock.ui.BaseBottomSheetDialog
 import com.matrix.applock.ui.permissions.IntentHelper
 import com.matrix.applock.ui.policydialog.analytics.PrivacyPolicyAnalytics

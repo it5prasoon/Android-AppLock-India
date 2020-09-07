@@ -7,9 +7,9 @@ import android.view.View
 import android.view.ViewGroup
 import androidx.appcompat.app.AppCompatDialogFragment
 import androidx.lifecycle.Observer
-import com.matrix.app.security.applocker.R
 import com.matrix.applock.data.database.bookmark.BookmarkEntity
-import com.matrix.app.security.applocker.databinding.DialogBookmarksBinding
+import com.matrix.applock.R
+import com.matrix.applock.databinding.DialogBookmarksBinding
 import com.matrix.applock.ui.BaseBottomSheetDialog
 import com.matrix.applock.util.delegate.inflate
 

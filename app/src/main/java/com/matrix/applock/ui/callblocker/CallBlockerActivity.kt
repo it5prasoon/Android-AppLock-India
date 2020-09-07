@@ -8,9 +8,9 @@ import android.os.Bundle
 import android.telecom.TelecomManager
 import androidx.annotation.RequiresApi
 import androidx.databinding.DataBindingUtil
-import com.matrix.app.security.applocker.R
 import com.matrix.applock.data.database.callblocker.addtoblacklist.AddToBlackListDialog
-import com.matrix.app.security.applocker.databinding.ActivityCallBlockerBinding
+import com.matrix.applock.R
+import com.matrix.applock.databinding.ActivityCallBlockerBinding
 import com.matrix.applock.ui.BaseActivity
 
 class CallBlockerActivity : BaseActivity<CallBlockerViewModel>() {

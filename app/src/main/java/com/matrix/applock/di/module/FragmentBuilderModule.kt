@@ -1,6 +1,6 @@
 package com.matrix.applock.di.module
 
-import com.iammert.hdwallpapers.di.scope.FragmentScope
+import com.matrix.applock.di.scope.FragmentScope
 import com.matrix.applock.ui.background.BackgroundsFragment
 import com.matrix.applock.ui.callblocker.blacklist.BlackListFragment
 import com.matrix.applock.ui.callblocker.log.CallLogFragment

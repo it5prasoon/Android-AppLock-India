@@ -8,12 +8,12 @@ import androidx.databinding.DataBindingUtil
 import com.andrognito.patternlockview.PatternLockView
 import com.daimajia.androidanimations.library.Techniques
 import com.daimajia.androidanimations.library.YoYo
-import com.matrix.app.security.applocker.R
-import com.matrix.app.security.applocker.databinding.ViewPatternOverlayBinding
 import com.matrix.applock.ui.newpattern.SimplePatternListener
 import android.content.pm.PackageManager
 import androidx.core.content.ContextCompat
+import com.matrix.applock.R
 import com.matrix.applock.data.AppLockerPreferences
+import com.matrix.applock.databinding.ViewPatternOverlayBinding
 import com.matrix.applock.ui.background.GradientBackgroundDataProvider
 import com.matrix.applock.ui.overlay.OverlayValidateType
 import com.matrix.applock.ui.overlay.OverlayViewState

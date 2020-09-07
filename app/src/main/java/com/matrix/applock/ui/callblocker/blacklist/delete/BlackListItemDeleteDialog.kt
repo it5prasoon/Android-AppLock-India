@@ -5,8 +5,8 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import androidx.appcompat.app.AppCompatDialogFragment
-import com.matrix.app.security.applocker.R
-import com.matrix.app.security.applocker.databinding.DialogBlackListItemDeleteBinding
+import com.matrix.applock.R
+import com.matrix.applock.databinding.DialogBlackListItemDeleteBinding
 import com.matrix.applock.ui.BaseBottomSheetDialog
 import com.matrix.applock.util.delegate.inflate
 

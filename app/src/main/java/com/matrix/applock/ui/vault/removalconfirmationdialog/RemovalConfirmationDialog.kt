@@ -6,9 +6,9 @@ import android.view.View
 import android.view.ViewGroup
 import androidx.fragment.app.DialogFragment
 import com.google.android.material.bottomsheet.BottomSheetDialogFragment
-import com.matrix.app.security.applocker.R
 import com.matrix.applock.data.database.vault.VaultMediaEntity
-import com.matrix.app.security.applocker.databinding.DialogRemovalConfirmationBinding
+import com.matrix.applock.R
+import com.matrix.applock.databinding.DialogRemovalConfirmationBinding
 import com.matrix.applock.ui.vault.removingvaultdialog.RemoveFromVaultDialog
 import com.matrix.applock.util.delegate.inflate
 

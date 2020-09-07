@@ -9,8 +9,8 @@ import android.view.MenuItem
 import androidx.databinding.DataBindingUtil
 import androidx.lifecycle.Observer
 import androidx.viewpager.widget.ViewPager
-import com.matrix.app.security.applocker.R
-import com.matrix.app.security.applocker.databinding.ActivityMainBinding
+import com.matrix.applock.R
+import com.matrix.applock.databinding.ActivityMainBinding
 import com.matrix.applock.ui.BaseActivity
 import com.matrix.applock.ui.main.analytics.MainActivityAnalytics
 import com.matrix.applock.ui.newpattern.CreateNewPatternActivity

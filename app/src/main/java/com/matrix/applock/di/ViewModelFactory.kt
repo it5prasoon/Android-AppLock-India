@@ -22,7 +22,7 @@ class ViewModelFactory @Inject constructor(private val viewModelMap: Map<Class<o
                 }
             }
         }
-        if (viewModel == null) throw IllegalArgumentException("Unknown model class" + modelClass)
+        if (viewModel == null) throw IllegalArgumentException("Unknown model class$modelClass")
         return viewModel.get() as T
     }
 

@@ -5,9 +5,9 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import androidx.lifecycle.Observer
-import com.matrix.app.security.applocker.R
 import com.matrix.applock.data.database.callblocker.blacklist.BlackListItemEntity
-import com.matrix.app.security.applocker.databinding.FragmentCallBlockerBlacklistBinding
+import com.matrix.applock.R
+import com.matrix.applock.databinding.FragmentCallBlockerBlacklistBinding
 import com.matrix.applock.ui.BaseFragment
 import com.matrix.applock.ui.callblocker.blacklist.delete.BlackListItemDeleteDialog
 import com.matrix.applock.util.delegate.inflate

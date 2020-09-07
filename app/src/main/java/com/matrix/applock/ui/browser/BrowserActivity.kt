@@ -8,11 +8,11 @@ import android.view.KeyEvent
 import android.view.inputmethod.EditorInfo
 import androidx.databinding.DataBindingUtil
 import androidx.lifecycle.Observer
-import com.matrix.app.security.applocker.databinding.ActivityBrowserBinding
 import com.matrix.applock.ui.BaseActivity
 import android.webkit.*
-import com.matrix.app.security.applocker.R
+import com.matrix.applock.R
 import com.matrix.applock.data.database.bookmark.BookmarkEntity
+import com.matrix.applock.databinding.ActivityBrowserBinding
 import com.matrix.applock.ui.browser.analytics.BrowserAnalytics
 import com.matrix.applock.ui.browser.bookmarks.BookmarksDialog
 import com.matrix.applock.ui.browser.resolver.UrlResolver.FACEBOOK

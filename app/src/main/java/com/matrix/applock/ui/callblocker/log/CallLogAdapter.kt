@@ -2,8 +2,8 @@ package com.matrix.applock.ui.callblocker.log
 
 import android.view.ViewGroup
 import androidx.recyclerview.widget.RecyclerView
-import com.matrix.app.security.applocker.R
-import com.matrix.app.security.applocker.databinding.ItemCallBlockerLogsBinding
+import com.matrix.applock.R
+import com.matrix.applock.databinding.ItemCallBlockerLogsBinding
 import com.matrix.applock.util.extensions.inflateAdapterItem
 
 class CallLogAdapter : RecyclerView.Adapter<CallLogAdapter.CallLogItemViewHolder>() {

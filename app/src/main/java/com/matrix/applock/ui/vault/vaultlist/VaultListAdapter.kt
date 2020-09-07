@@ -4,9 +4,9 @@ import android.view.LayoutInflater
 import android.view.ViewGroup
 import androidx.databinding.DataBindingUtil
 import androidx.recyclerview.widget.RecyclerView
-import com.matrix.app.security.applocker.R
 import com.matrix.applock.data.database.vault.VaultMediaEntity
-import com.matrix.app.security.applocker.databinding.ItemVaultListBinding
+import com.matrix.applock.R
+import com.matrix.applock.databinding.ItemVaultListBinding
 
 class VaultListAdapter : RecyclerView.Adapter<VaultListAdapter.VaultListItemViewHolder>() {
 

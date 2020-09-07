@@ -1,6 +1,6 @@
 package com.matrix.applock.ui.security.function
 
-import com.matrix.app.security.applocker.R
+import com.matrix.applock.R
 import com.matrix.applock.ui.security.AppLockItemBaseViewState
 import com.matrix.applock.ui.security.AppLockItemHeaderViewState
 import com.matrix.applock.ui.security.AppLockItemItemViewState

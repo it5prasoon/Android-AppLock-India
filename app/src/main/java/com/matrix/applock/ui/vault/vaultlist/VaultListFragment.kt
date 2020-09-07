@@ -6,9 +6,9 @@ import android.view.View
 import android.view.ViewGroup
 import androidx.fragment.app.Fragment
 import androidx.lifecycle.Observer
-import com.matrix.app.security.applocker.R
 import com.matrix.applock.data.database.vault.VaultMediaType
-import com.matrix.app.security.applocker.databinding.FragmentVaultListBinding
+import com.matrix.applock.R
+import com.matrix.applock.databinding.FragmentVaultListBinding
 import com.matrix.applock.ui.BaseFragment
 import com.matrix.applock.ui.vault.removalconfirmationdialog.RemovalConfirmationDialog
 import com.matrix.applock.util.delegate.inflate
@@ -39,7 +39,7 @@ class VaultListFragment : BaseFragment<VaultListViewModel>() {
     override fun onActivityCreated(savedInstanceState: Bundle?) {
         super.onActivityCreated(savedInstanceState)
 
-        viewModel.getVaultListViewStateLiveData().observe(this, Observer {
+        viewModel.getVaultListViewStateLiveData().observe(viewLifecycleOwner, Observer {
             binding.viewState = it
             binding.executePendingBindings()
             vaultListAdapter.updateVaultList(it.vaultList)

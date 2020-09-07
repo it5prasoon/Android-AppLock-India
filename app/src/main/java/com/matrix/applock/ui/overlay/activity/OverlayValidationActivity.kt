@@ -14,6 +14,7 @@ import com.daimajia.androidanimations.library.YoYo
 import com.google.android.gms.ads.*
 import com.matrix.app.security.applocker.R
 import com.matrix.app.security.applocker.databinding.ActivityOverlayValidationBinding
+import com.matrix.applock.databinding.ActivityOverlayValidationBinding
 import com.matrix.applock.ui.BaseActivity
 import com.matrix.applock.ui.intruders.camera.FrontPictureLiveData
 import com.matrix.applock.ui.intruders.camera.FrontPictureState
@@ -42,7 +43,7 @@ class OverlayValidationActivity : BaseActivity<OverlayValidationViewModel>() {
         super.onCreate(savedInstanceState)
         binding = DataBindingUtil.setContentView(this, R.layout.activity_overlay_validation)
 
-        updateLaunchingAppIcon(intent.getStringExtra(KEY_PACKAGE_NAME))
+        intent.getStringExtra(KEY_PACKAGE_NAME)?.let { updateLaunchingAppIcon(it) }
 
         frontPictureLiveData =
             FrontPictureLiveData(application, viewModel.getIntruderPictureImageFile())

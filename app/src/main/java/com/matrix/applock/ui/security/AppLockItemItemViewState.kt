@@ -3,7 +3,7 @@ package com.matrix.applock.ui.security
 import android.content.Context
 import android.graphics.drawable.Drawable
 import androidx.core.content.ContextCompat
-import com.matrix.app.security.applocker.R
+import com.matrix.applock.R
 import com.matrix.applock.data.AppData
 
 data class AppLockItemItemViewState(val appData: AppData, var isLocked: Boolean = false) :

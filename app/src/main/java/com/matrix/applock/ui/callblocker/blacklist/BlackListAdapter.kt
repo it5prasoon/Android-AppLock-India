@@ -2,9 +2,9 @@ package com.matrix.applock.ui.callblocker.blacklist
 
 import android.view.ViewGroup
 import androidx.recyclerview.widget.RecyclerView
-import com.matrix.app.security.applocker.R
+import com.matrix.applock.R
 import com.matrix.applock.data.database.callblocker.blacklist.BlackListItemEntity
-import com.matrix.app.security.applocker.databinding.ItemCallBlockerBlacklistBinding
+import com.matrix.applock.databinding.ItemCallBlockerBlacklistBinding
 import com.matrix.applock.util.extensions.inflateAdapterItem
 
 class BlackListAdapter : RecyclerView.Adapter<BlackListAdapter.BlackListItemViewHolder>() {

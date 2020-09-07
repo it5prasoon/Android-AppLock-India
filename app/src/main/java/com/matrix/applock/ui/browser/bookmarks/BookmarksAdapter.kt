@@ -2,9 +2,9 @@ package com.matrix.applock.ui.browser.bookmarks
 
 import android.view.ViewGroup
 import androidx.recyclerview.widget.RecyclerView
-import com.matrix.app.security.applocker.R
+import com.matrix.applock.R
 import com.matrix.applock.data.database.bookmark.BookmarkEntity
-import com.matrix.app.security.applocker.databinding.ItemBookmarkBinding
+import com.matrix.applock.databinding.ItemBookmarkBinding
 import com.matrix.applock.util.extensions.inflateAdapterItem
 
 class BookmarksAdapter : RecyclerView.Adapter<BookmarksAdapter.BookmarkItemViewHolder>() {

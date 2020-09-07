@@ -7,8 +7,8 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import androidx.appcompat.app.AppCompatDialogFragment
-import com.matrix.app.security.applocker.R
-import com.matrix.app.security.applocker.databinding.DialogRateUsBinding
+import com.matrix.applock.R
+import com.matrix.applock.databinding.DialogRateUsBinding
 import com.matrix.applock.ui.BaseBottomSheetDialog
 import com.matrix.applock.util.delegate.inflate
 

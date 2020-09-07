@@ -11,7 +11,6 @@ import com.matrix.applock.util.encryptor.CryptoProcess
 import com.matrix.applock.util.encryptor.EncryptFileOperationRequest
 import com.matrix.applock.util.encryptor.FileEncryptor
 import com.matrix.applock.util.extensions.doOnBackground
-import com.matrix.app.security.applocker.util.helper.file.*
 import com.matrix.applock.util.helper.file.*
 import io.reactivex.BackpressureStrategy
 import io.reactivex.Flowable

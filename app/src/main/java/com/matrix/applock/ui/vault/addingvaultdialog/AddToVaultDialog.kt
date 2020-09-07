@@ -5,11 +5,11 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import androidx.lifecycle.Observer
-import com.matrix.app.security.applocker.R
 import com.matrix.applock.data.database.vault.VaultMediaType
 import com.matrix.applock.data.database.vault.VaultMediaType.TYPE_IMAGE
 import com.matrix.applock.data.database.vault.VaultMediaType.TYPE_VIDEO
-import com.matrix.app.security.applocker.databinding.DialogAddToVaultBinding
+import com.matrix.applock.R
+import com.matrix.applock.databinding.DialogAddToVaultBinding
 import com.matrix.applock.ui.BaseBottomSheetDialog
 import com.matrix.applock.ui.vault.analytics.VaultAnalytics
 import com.matrix.applock.util.delegate.inflate

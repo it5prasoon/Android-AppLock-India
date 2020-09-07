@@ -9,7 +9,7 @@ import android.content.Intent
 import android.os.Build
 import androidx.core.app.NotificationCompat
 import androidx.core.app.NotificationManagerCompat
-import com.matrix.app.security.applocker.R
+import com.matrix.applock.R
 import com.matrix.applock.ui.main.MainActivity
 import javax.inject.Inject
 

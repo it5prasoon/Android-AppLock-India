@@ -4,8 +4,8 @@ import android.content.Context
 import android.content.Intent
 import android.os.Bundle
 import androidx.lifecycle.Observer
-import com.matrix.app.security.applocker.R
-import com.matrix.app.security.applocker.databinding.ActivityIntrudersPhotosBinding
+import com.matrix.applock.R
+import com.matrix.applock.databinding.ActivityIntrudersPhotosBinding
 import com.matrix.applock.ui.BaseActivity
 import com.matrix.applock.util.delegate.contentView
 import javax.inject.Inject

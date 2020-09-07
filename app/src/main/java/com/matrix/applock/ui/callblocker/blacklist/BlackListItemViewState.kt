@@ -1,7 +1,7 @@
 package com.matrix.applock.ui.callblocker.blacklist
 
 import android.content.Context
-import com.matrix.app.security.applocker.R
+import com.matrix.applock.R
 import com.matrix.applock.data.database.callblocker.blacklist.BlackListItemEntity
 
 data class BlackListItemViewState(val blackListItemEntity: BlackListItemEntity) {

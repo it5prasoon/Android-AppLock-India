@@ -4,7 +4,7 @@ import android.content.Context
 import android.graphics.drawable.Drawable
 import android.view.View
 import androidx.core.content.ContextCompat
-import com.matrix.app.security.applocker.R
+import com.matrix.applock.R
 import com.matrix.applock.data.database.vault.VaultMediaEntity
 import com.matrix.applock.data.database.vault.VaultMediaType
 import com.matrix.applock.data.database.vault.VaultMediaType.*

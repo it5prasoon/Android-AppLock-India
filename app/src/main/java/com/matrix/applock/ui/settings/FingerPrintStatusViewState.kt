@@ -1,7 +1,7 @@
 package com.matrix.applock.ui.settings
 
 import android.content.Context
-import com.matrix.app.security.applocker.R
+import com.matrix.applock.R
 
 data class FingerPrintStatusViewState(
     val isFingerPrintSupported: Boolean,

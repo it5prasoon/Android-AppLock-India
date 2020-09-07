@@ -5,8 +5,8 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import androidx.lifecycle.Observer
-import com.matrix.app.security.applocker.R
-import com.matrix.app.security.applocker.databinding.FragmentCallBlockerLogsBinding
+import com.matrix.applock.R
+import com.matrix.applock.databinding.FragmentCallBlockerLogsBinding
 import com.matrix.applock.ui.BaseFragment
 import com.matrix.applock.util.delegate.inflate
 

@@ -9,9 +9,8 @@ import android.net.Uri
 import android.os.Bundle
 import androidx.databinding.DataBindingUtil
 import com.google.android.gms.ads.*
-import com.matrix.app.security.applocker.R
 import com.matrix.applock.data.database.vault.VaultMediaType
-import com.matrix.app.security.applocker.databinding.ActivityVaultBinding
+import com.matrix.applock.databinding.ActivityVaultBinding
 import com.matrix.applock.ui.BaseActivity
 import com.matrix.applock.ui.rateus.RateUsDialog
 import com.matrix.applock.ui.vault.addingvaultdialog.AddToVaultDialog

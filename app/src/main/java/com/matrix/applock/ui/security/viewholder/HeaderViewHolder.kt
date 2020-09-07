@@ -4,8 +4,8 @@ import android.view.LayoutInflater
 import android.view.ViewGroup
 import androidx.databinding.DataBindingUtil
 import androidx.recyclerview.widget.RecyclerView
-import com.matrix.app.security.applocker.R
-import com.matrix.app.security.applocker.databinding.ItemLockedListHeaderBinding
+import com.matrix.applock.R
+import com.matrix.applock.databinding.ItemLockedListHeaderBinding
 import com.matrix.applock.ui.security.AppLockItemHeaderViewState
 
 class HeaderViewHolder(private val binding: ItemLockedListHeaderBinding) :

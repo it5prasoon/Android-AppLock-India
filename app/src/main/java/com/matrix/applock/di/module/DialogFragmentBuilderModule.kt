@@ -1,6 +1,6 @@
 package com.matrix.applock.di.module
 
-import com.iammert.hdwallpapers.di.scope.FragmentScope
+import com.matrix.applock.di.scope.FragmentScope
 import com.matrix.applock.data.database.callblocker.addtoblacklist.AddToBlackListDialog
 import com.matrix.applock.ui.browser.bookmarks.BookmarksDialog
 import com.matrix.applock.ui.callblocker.blacklist.delete.BlackListItemDeleteDialog

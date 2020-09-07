@@ -4,8 +4,8 @@ import android.view.LayoutInflater
 import android.view.ViewGroup
 import androidx.databinding.DataBindingUtil
 import androidx.recyclerview.widget.RecyclerView
-import com.matrix.app.security.applocker.R
-import com.matrix.app.security.applocker.databinding.ItemAppLockListBinding
+import com.matrix.applock.R
+import com.matrix.applock.databinding.ItemAppLockListBinding
 import com.matrix.applock.ui.security.AppLockItemItemViewState
 
 class AppLockItemViewHolder(

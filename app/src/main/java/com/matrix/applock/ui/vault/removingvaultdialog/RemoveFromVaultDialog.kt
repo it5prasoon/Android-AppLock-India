@@ -6,10 +6,10 @@ import android.view.View
 import android.view.ViewGroup
 import androidx.fragment.app.DialogFragment
 import androidx.lifecycle.Observer
-import com.matrix.app.security.applocker.R
 import com.matrix.applock.data.database.vault.VaultMediaEntity
 import com.matrix.applock.data.database.vault.VaultMediaType.*
-import com.matrix.app.security.applocker.databinding.DialogRemoveFromVaultBinding
+import com.matrix.applock.R
+import com.matrix.applock.databinding.DialogRemoveFromVaultBinding
 import com.matrix.applock.ui.BaseBottomSheetDialog
 import com.matrix.applock.ui.vault.addingvaultdialog.ProcessState
 import com.matrix.applock.ui.vault.analytics.VaultAnalytics

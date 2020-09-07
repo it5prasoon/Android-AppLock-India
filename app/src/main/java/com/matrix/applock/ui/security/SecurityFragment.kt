@@ -6,8 +6,7 @@ import android.view.View
 import android.view.ViewGroup
 import androidx.lifecycle.Observer
 import com.google.android.gms.ads.*
-import com.matrix.app.security.applocker.R
-import com.matrix.app.security.applocker.databinding.FragmentSecurityBinding
+import com.matrix.applock.databinding.FragmentSecurityBinding
 import com.matrix.applock.ui.BaseFragment
 import com.matrix.applock.ui.background.BackgroundsActivity
 import com.matrix.applock.ui.browser.BrowserActivity

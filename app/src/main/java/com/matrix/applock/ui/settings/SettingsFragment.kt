@@ -9,8 +9,8 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import androidx.lifecycle.Observer
-import com.matrix.app.security.applocker.R
-import com.matrix.app.security.applocker.databinding.FragmentSettingsBinding
+import com.matrix.applock.R
+import com.matrix.applock.databinding.FragmentSettingsBinding
 import com.matrix.applock.ui.BaseFragment
 import com.matrix.applock.ui.intruders.IntrudersPhotosActivity
 import com.matrix.applock.ui.newpattern.CreateNewPatternActivity

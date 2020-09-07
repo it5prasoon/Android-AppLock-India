@@ -3,7 +3,7 @@ package com.matrix.applock.ui.settings
 import android.content.Context
 import android.graphics.drawable.Drawable
 import androidx.core.content.ContextCompat
-import com.matrix.app.security.applocker.R
+import com.matrix.applock.R
 
 data class SettingsViewState(
     val isAllAppLocked: Boolean = false,

@@ -6,8 +6,8 @@ import android.view.View
 import android.view.ViewGroup
 import androidx.appcompat.app.AppCompatDialogFragment
 import androidx.lifecycle.Observer
-import com.matrix.app.security.applocker.R
-import com.matrix.app.security.applocker.databinding.DialogCallBlockerAddToBlacklistBinding
+import com.matrix.applock.R
+import com.matrix.applock.databinding.DialogCallBlockerAddToBlacklistBinding
 import com.matrix.applock.ui.BaseBottomSheetDialog
 import com.matrix.applock.util.delegate.inflate
 import kotlinx.android.synthetic.main.dialog_call_blocker_add_to_blacklist.*
