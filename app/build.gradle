@@ -95,7 +95,7 @@ dependencies {
     implementation 'com.daimajia.androidanimations:library:2.3@aar'
 
     implementation 'com.wei.android.lib:fingerprintidentify:1.2.6'
-    implementation 'com.github.iammert:beaver:1.1'
+    implementation 'com.github.it5prasoon:beaver:1.0.1'
     implementation 'com.squareup.picasso:picasso:2.71828'
     implementation 'com.googlecode.libphonenumber:libphonenumber:8.11.3'
     implementation 'org.ocpsoft.prettytime:prettytime:4.0.1.Final'
@@ -111,6 +111,7 @@ dependencies {
 
     kapt 'com.google.dagger:dagger-compiler:2.22.1'
     kapt 'com.google.dagger:dagger-android-processor:2.22.1'
+    //noinspection LifecycleAnnotationProcessorWithJava8
     kapt "androidx.lifecycle:lifecycle-compiler:2.3.0-alpha07"
     kapt "androidx.room:room-compiler:2.3.0-alpha02"
 
