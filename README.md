@@ -34,8 +34,4 @@ A app securing your application built with Kotlin.
 <h2>TODO</h2> 
  To be added.!
  
- <h2>Gradle Implementations</h2>
-    implementation 'com.andrognito.patternlockview:patternlockview:1.0.0'<br>
-    implementation 'com.shuhart.stepview:stepview:1.2.0'<br>
-    implementation 'io.paperdb:paperdb:2.0'<br>
-    implementation 'com.google.android.material:material:1.2.1'<br>
+  
