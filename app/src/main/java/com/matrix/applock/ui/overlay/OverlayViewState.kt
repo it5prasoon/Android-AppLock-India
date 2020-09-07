@@ -2,7 +2,7 @@ package com.matrix.applock.ui.overlay
 
 import android.content.Context
 import android.view.View
-import com.matrix.app.security.applocker.R
+import com.matrix.applock.R
 import com.matrix.applock.ui.overlay.OverlayValidateType.*
 import com.matrix.applock.ui.overlay.activity.FingerPrintResult.*
 import com.matrix.applock.ui.overlay.activity.FingerPrintResultData

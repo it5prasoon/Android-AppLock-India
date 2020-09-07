@@ -4,8 +4,8 @@ import android.content.Context
 import android.content.Intent
 import android.os.Bundle
 import androidx.databinding.DataBindingUtil
-import com.matrix.app.security.applocker.R
-import com.matrix.app.security.applocker.databinding.ActivityBackgroundsBinding
+import com.matrix.applock.databinding.ActivityBackgroundsBinding
+import com.matrix.applock.R
 import com.matrix.applock.ui.BaseActivity
 
 class BackgroundsActivity : BaseActivity<BackgroundsActivityViewModel>() {

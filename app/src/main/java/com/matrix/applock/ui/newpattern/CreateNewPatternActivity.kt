@@ -7,8 +7,8 @@ import android.os.Bundle
 import androidx.databinding.DataBindingUtil
 import androidx.lifecycle.Observer
 import com.andrognito.patternlockview.PatternLockView
-import com.matrix.app.security.applocker.R
-import com.matrix.app.security.applocker.databinding.ActivityCreateNewPatternBinding
+import com.matrix.applock.databinding.ActivityCreateNewPatternBinding
+import com.matrix.applock.R
 import com.matrix.applock.ui.BaseActivity
 
 class CreateNewPatternActivity : BaseActivity<CreateNewPatternViewModel>() {
