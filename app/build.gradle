@@ -33,5 +33,18 @@ dependencies {
     testImplementation 'junit:junit:4.12'
     androidTestImplementation 'androidx.test.ext:junit:1.1.2'
     androidTestImplementation 'androidx.test.espresso:espresso-core:3.3.0'
+    implementation 'com.takwolf.android:lock9view:0.0.2'
+    implementation "androidx.cardview:cardview:1.0.0"
+    //noinspection GradleCompatible
+    implementation 'com.android.support:recyclerview-v7:28.0.0'
+    implementation 'com.google.code.gson:gson:2.8.6'
+    implementation('com.mikepenz.materialdrawer:library:2.9.8@aar') {
+        transitive = true
+    }
+
+    // google cloud services
+    implementation 'com.google.android.gms:play-services-gcm:17.0.0'
+    implementation 'com.google.android.gms:play-services-analytics:17.0.0'
+    implementation 'com.google.android.gms:play-services-ads:19.3.0'
 
 }
