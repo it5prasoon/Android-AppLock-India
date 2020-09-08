@@ -26,14 +26,14 @@
         android:name=".AppLockerApplication"
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
-        android:label="App Locker"
+        android:label="AppLock India"
         android:supportsRtl="true"
         android:theme="@style/AppTheme"
         tools:ignore="GoogleAppIndexingWarning">
         <activity
             android:name=".ui.main.MainActivity"
             android:excludeFromRecents="true"
-            android:label="App Locker"
+            android:label="AppLock India"
             android:launchMode="singleTop"
             android:theme="@style/AppTheme.NoActionBar">
             <intent-filter>

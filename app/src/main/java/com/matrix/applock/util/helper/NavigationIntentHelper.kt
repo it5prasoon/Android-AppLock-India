@@ -14,6 +14,7 @@ object NavigationIntentHelper {
             Intent.EXTRA_TEXT,
             "Hey check out app at: https://play.google.com/store/apps/details?id=${BuildConfig.APPLICATION_ID}"
         )
+//        println(BuildConfig.APPLICATION_ID)
         sendIntent.type = "text/plain"
         return sendIntent
     }
@@ -28,7 +29,7 @@ object NavigationIntentHelper {
     fun getFeedbackIntent(): Intent {
         val emailIntent = Intent(
             Intent.ACTION_SENDTO, Uri.fromParts(
-                "mailto", "momentolabs@gmail.com", null
+                "mailto", "prasoonk187@gmail.com", null
             )
         )
         return Intent.createChooser(emailIntent, "Send email...")

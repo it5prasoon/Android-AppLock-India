@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">Secure Box</string>
+    <string name="app_name">AppLock India</string>
     <string name="navigation_drawer_open" translatable="false">Open navigation drawer</string>
     <string name="navigation_drawer_close" translatable="false">Close navigation drawer</string>
     <string name="action_settings">Settings</string>
@@ -91,14 +91,14 @@
     <string name="overlay_prompt_fingerprint_title_correct">Fingerprint matched!</string>
 
     <string name="overlay_prompt_fingerprint_title_error">Fingerprint error! Try pattern.</string>
-    <string name="dialog_title_rate_us">Did you like SecureBox?</string>
+    <string name="dialog_title_rate_us">Did you like AppLock India?</string>
     <string name="dialog_description_rate_us">We will be sooo happy If you rate us on market.</string>
     <string name="dialog_action_rate_us_rate">Rate</string>
 
     <string name="dialog_action_rate_us_later">Later</string>
     <string name="dialog_title_usage_permission">Android 5.0 Permission</string>
     <string name="dialog_description_usage_permission">In Android 5.0 or above, you need to permit usage access for
-        AppLocker, so that you can use SecureBox Feature
+        AppLocker, so that you can use application Feature
     </string>
     <string name="dialog_action_usage_permission_permit">Permit</string>
 
