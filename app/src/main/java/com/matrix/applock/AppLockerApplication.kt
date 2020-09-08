@@ -6,6 +6,7 @@ import com.bugsnag.android.Bugsnag
 import com.facebook.soloader.SoLoader
 import com.facebook.stetho.Stetho
 import com.google.android.gms.ads.MobileAds
+import com.matrix.applock.di.component.DaggerAppComponent
 import com.matrix.applock.service.ServiceStarter
 import com.matrix.applock.service.worker.WorkerStarter
 import com.raqun.beaverlib.Beaver

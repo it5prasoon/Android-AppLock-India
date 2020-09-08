@@ -45,6 +45,7 @@ android {
     }
 
     kapt {
+        generateStubs = true
         javacOptions {
             option("-Xmaxerrs", 500)
         }
