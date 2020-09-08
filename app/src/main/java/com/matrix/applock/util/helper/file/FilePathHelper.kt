@@ -17,7 +17,7 @@ import android.webkit.MimeTypeMap
 import androidx.annotation.NonNull
 import androidx.annotation.Nullable
 import androidx.core.content.FileProvider
-import com.matrix.app.security.applocker.BuildConfig
+import com.matrix.applock.BuildConfig
 import java.io.*
 import java.text.DecimalFormat
 

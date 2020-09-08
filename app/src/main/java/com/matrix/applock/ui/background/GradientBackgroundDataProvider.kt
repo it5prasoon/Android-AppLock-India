@@ -1,6 +1,6 @@
 package com.matrix.applock.ui.background
 
-import com.matrix.app.security.applocker.R
+import com.matrix.applock.R
 
 object GradientBackgroundDataProvider {
 

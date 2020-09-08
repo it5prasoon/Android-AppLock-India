@@ -3,7 +3,7 @@ package com.matrix.applock.util.binding
 import android.graphics.drawable.Drawable
 import androidx.appcompat.widget.AppCompatImageView
 import androidx.databinding.BindingAdapter
-import com.matrix.app.security.applocker.R
+import com.matrix.applock.R
 import com.squareup.picasso.Picasso
 import java.io.File
 

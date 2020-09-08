@@ -6,8 +6,8 @@ import android.view.View
 import android.view.ViewGroup
 import androidx.fragment.app.Fragment
 import androidx.lifecycle.Observer
-import com.matrix.app.security.applocker.R
-import com.matrix.app.security.applocker.databinding.FragmentBackgroundsBinding
+import com.matrix.applock.R
+import com.matrix.applock.databinding.FragmentBackgroundsBinding
 import com.matrix.applock.ui.BaseFragment
 import com.matrix.applock.ui.background.analytics.BackgroundAnalytics
 import com.matrix.applock.util.delegate.inflate
@@ -33,7 +33,7 @@ class BackgroundsFragment : BaseFragment<BackgroundsFragmentViewModel>() {
 
     override fun onActivityCreated(savedInstanceState: Bundle?) {
         super.onActivityCreated(savedInstanceState)
-        viewModel.getBackgroundViewStateLiveData().observe(this, Observer {
+        viewModel.getBackgroundViewStateLiveData().observe(viewLifecycleOwner, Observer {
             backgroundsAdapter.setViewStateList(it)
         })
     }

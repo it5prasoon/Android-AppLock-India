@@ -2,7 +2,7 @@ package com.matrix.applock.util.helper
 
 import android.content.Intent
 import android.net.Uri
-import com.matrix.app.security.applocker.BuildConfig
+import com.matrix.applock.BuildConfig
 
 
 object NavigationIntentHelper {
