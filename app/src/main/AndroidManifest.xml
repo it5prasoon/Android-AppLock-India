@@ -125,5 +125,7 @@
         <meta-data
             android:name="com.google.android.gms.ads.APPLICATION_ID"
             android:value="@string/mobile_ad_id"/>
+
+
     </application>
 </manifest>
