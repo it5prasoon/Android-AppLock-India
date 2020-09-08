@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "659956409987",
+    "firebase_url": "https://applocker-815a1.firebaseio.com",
+    "project_id": "applocker-815a1",
+    "storage_bucket": "applocker-815a1.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:659956409987:android:1476b0e324edcb80f55db6",
+        "android_client_info": {
+          "package_name": "com.matrix.applock"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "659956409987-b6u3sp1hcm2mighukgddfd8b24j13689.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDTG7OKJuj5DB9PsUeg1abknvyvD310zuk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "659956409987-b6u3sp1hcm2mighukgddfd8b24j13689.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
