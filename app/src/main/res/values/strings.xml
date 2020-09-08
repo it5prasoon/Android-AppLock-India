@@ -5,7 +5,7 @@
     <string name="action_settings">Settings</string>
 
     <!-- AD unit ids-->
-    <string name="mobile_ad_id" translatable="false">ca-app-pub-7871339030028560~1707247077</string>
+    <string name="mobile_ad_id" translatable="false">ca-app-pub-7871339030028560~7977335470</string>
     <string name="banner_ad_unit_id" translatable="false">ca-app-pub-7871339030028560/1707247077</string>
     <string name="overlay_banner_ad_unit_id" translatable="false">ca-app-pub-7871339030028560/1707247077</string>
     <string name="dashboard_banner_ad_unit_id" translatable="false">ca-app-pub-7871339030028560/1707247077</string>
