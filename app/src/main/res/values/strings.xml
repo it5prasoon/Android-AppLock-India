@@ -5,7 +5,7 @@
     <string name="action_settings">Settings</string>
 
     <!-- AD unit ids-->
-    <string name="mobile_ad_id" translatable="false">ca-app-pub-7871339030028560/1707247077</string>
+    <string name="mobile_ad_id" translatable="false">ca-app-pub-7871339030028560~1707247077</string>
     <string name="banner_ad_unit_id" translatable="false">ca-app-pub-7871339030028560/1707247077</string>
     <string name="overlay_banner_ad_unit_id" translatable="false">ca-app-pub-7871339030028560/1707247077</string>
     <string name="dashboard_banner_ad_unit_id" translatable="false">ca-app-pub-7871339030028560/1707247077</string>
@@ -180,7 +180,7 @@
 
     <!-- Intruders Photo Activity -->
     <string name="title_intruders_photos">Intruders Photos</string>
-    <string name="empty_page_intruders_title">No Intruders Catched</string>
-    <string name="empty_page_intruders_description">Your phone is secure!</string>
+    <string name="empty_page_intruders_title" translatable="false">No Intruders Catched</string>
+    <string name="empty_page_intruders_description" translatable="false">Your phone is secure!</string>
 
 </resources>
