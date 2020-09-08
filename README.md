@@ -26,12 +26,7 @@ A app securing your application built with Kotlin.
 13. Auto restart (to prevent app from being killed by task killers)
 
 
-<h2>Work Done</h2>
-1. Pattern Lock added.<br>
-2. Application Lists are shown using adapters and viewHolders.
-
 
 <h2>TODO</h2> 
- To be added.!
- 
+1. To make it work with all Android Api 
   
