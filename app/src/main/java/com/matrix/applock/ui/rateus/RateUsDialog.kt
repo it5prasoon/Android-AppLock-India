@@ -38,7 +38,7 @@ class RateUsDialog : BaseBottomSheetDialog<RateUsViewModel>() {
             startActivity(
                 Intent(
                     Intent.ACTION_VIEW,
-                    Uri.parse("market://details?id=com.momentolabs.app.security.applocker")
+                    Uri.parse("")
                 )
             )
         }

@@ -114,8 +114,7 @@
                         android:layout_height="wrap_content"
                         android:layout_centerVertical="true"
                         android:layout_alignParentRight="true"
-                        android:layout_margin="@dimen/margin_16dp"
-                    tools:ignore="UseSwitchCompatOrMaterialXml" />
+                        android:layout_margin="@dimen/margin_16dp"/>
 
 
             </RelativeLayout>

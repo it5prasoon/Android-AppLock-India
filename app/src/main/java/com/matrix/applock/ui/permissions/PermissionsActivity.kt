@@ -3,10 +3,12 @@ package com.matrix.applock.ui.permissions
 import android.app.Activity
 import android.content.Context
 import android.content.Intent
+import android.os.Build
 import android.os.Bundle
 import androidx.databinding.DataBindingUtil
 import com.matrix.applock.ui.BaseActivity
 import android.provider.Settings
+import androidx.annotation.RequiresApi
 import com.matrix.applock.R
 import com.matrix.applock.databinding.ActivityPermissionsBinding
 import com.matrix.applock.service.notification.ServiceNotificationManager
@@ -22,6 +24,7 @@ class PermissionsActivity : BaseActivity<PermissionsViewModel>() {
 
     override fun getViewModel(): Class<PermissionsViewModel> = PermissionsViewModel::class.java
 
+    @RequiresApi(Build.VERSION_CODES.LOLLIPOP)
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         binding = DataBindingUtil.setContentView(this, R.layout.activity_permissions)
@@ -52,6 +55,7 @@ class PermissionsActivity : BaseActivity<PermissionsViewModel>() {
         }
     }
 
+    @RequiresApi(Build.VERSION_CODES.M)
     override fun onActivityResult(requestCode: Int, resultCode: Int, data: Intent?) {
         super.onActivityResult(requestCode, resultCode, data)
         when (requestCode) {
@@ -66,6 +70,7 @@ class PermissionsActivity : BaseActivity<PermissionsViewModel>() {
         }
     }
 
+    @RequiresApi(Build.VERSION_CODES.LOLLIPOP)
     override fun onResume() {
         super.onResume()
         binding.switchUsageAccess.isChecked = PermissionChecker.checkUsageAccessPermission(this)
@@ -75,6 +80,7 @@ class PermissionsActivity : BaseActivity<PermissionsViewModel>() {
         }
     }
 
+    @RequiresApi(Build.VERSION_CODES.LOLLIPOP)
     private fun isAllPermissionsPermitted() =
         PermissionChecker.checkUsageAccessPermission(this) &&
                 PermissionChecker.checkOverlayPermission(this)

@@ -5,9 +5,11 @@ import android.content.Context
 import android.content.pm.PackageManager.NameNotFoundException
 import android.os.Build
 import android.provider.Settings
+import androidx.annotation.RequiresApi
 
 object PermissionChecker {
 
+    @RequiresApi(Build.VERSION_CODES.LOLLIPOP)
     fun checkUsageAccessPermission(context: Context): Boolean {
         if (Build.VERSION.SDK_INT <= Build.VERSION_CODES.KITKAT) {
             return true
@@ -38,6 +40,7 @@ object PermissionChecker {
             true
         }
 
+    @RequiresApi(Build.VERSION_CODES.LOLLIPOP)
     fun isAllPermissionChecked(context: Context) =
         checkUsageAccessPermission(context) && checkOverlayPermission(context)
 }
