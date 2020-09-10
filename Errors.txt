@@ -1,0 +1,23 @@
+1. After clicking on Lock response
+
+
+// Android 8.1 API 27 oreo 
+
+V/FA: Using local app measurement service
+V/FA: Local AppMeasurementService is starting up
+    Bound to IMeasurementService interface
+V/FA: Connected to service
+    Processing queued up service tasks: 1
+V/FA: Logging event: origin=app,name=app_item_locked,params=Bundle[{app_item_locked=1, ga_event_origin(_o)=app, ga_screen_class(_sc)=MainActivity, ga_screen_id(_si)=-2417951528946550882}]
+W/GooglePlayServicesUtil: Google Play services out of date.  Requires 12451000 but found 11580470
+V/FA: Upload scheduled in approximately ms: 3495322
+V/FA: Unscheduling upload
+V/FA: Scheduling upload, millis: 3495322
+V/FA: Background event processing time, ms: 32
+
+// Android 10.0 API 29 X
+
+
+No Response 
+
+

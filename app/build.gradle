@@ -22,12 +22,13 @@ android {
 
     defaultConfig {
         applicationId "com.matrix.applock"
-        minSdkVersion 21
+        minSdkVersion 17
         targetSdkVersion 30
         versionCode 1
         versionName "1.0"
-
+        multiDexEnabled true
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
+        vectorDrawables.useSupportLibrary = true
     }
 
     dataBinding {
@@ -36,6 +37,7 @@ android {
 
     buildTypes {
         release {
+            debuggable false
             minifyEnabled false
             proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
         }

@@ -102,7 +102,7 @@ class SecurityFragment : BaseFragment<SecurityViewModel>() {
     private fun showBannerAd() {
         activity?.let { MobileAds.initialize(activity) }
 
-        activity?.let {
+        activity?.let { it ->
             val mAdView = AdView(it).apply {
                 adSize = AdSize.BANNER
                 adUnitId = getString(R.string.dashboard_banner_ad_unit_id)
