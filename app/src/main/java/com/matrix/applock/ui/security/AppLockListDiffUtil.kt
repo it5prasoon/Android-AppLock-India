@@ -13,7 +13,7 @@ class AppLockListDiffUtil(
     override fun getNewListSize(): Int = newList.size
 
     override fun areItemsTheSame(oldItemPosition: Int, newItemPosition: Int): Boolean {
-        if ((oldItemPosition in 0 until oldList.size).not() || (newItemPosition in 0 until newList.size).not()) {
+        if ((oldItemPosition in oldList.indices).not() || (newItemPosition in newList.indices).not()) {
             return false
         }
 
