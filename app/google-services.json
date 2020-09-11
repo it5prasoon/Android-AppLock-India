@@ -8,9 +8,9 @@
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:659956409987:android:1476b0e324edcb80f55db6",
+        "mobilesdk_app_id": "1:659956409987:android:fdcfb127b76863b0f55db6",
         "android_client_info": {
-          "package_name": "com.matrix.applock"
+          "package_name": "com.webers.applock"
         }
       },
       "oauth_client": [

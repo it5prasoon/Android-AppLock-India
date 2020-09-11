@@ -6,7 +6,7 @@
         
         <variable
             name="viewState"
-            type="com.matrix.applock.ui.intruders.IntrudersViewState" />
+            type="com.webers.applock.ui.intruders.IntrudersViewState" />
     </data>
 
 

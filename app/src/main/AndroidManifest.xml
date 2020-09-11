@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
-    package="com.matrix.applock">
+    package="com.webers.applock">
 
     <uses-permission android:name="android.permission.INTERNET" />
     <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
@@ -28,7 +28,7 @@
 
 
     <application
-        android:name=".AppLockerApplication"
+        android:name="com.webers.applock.AppLockerApplication"
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
         android:label="AppLock India"
@@ -36,7 +36,7 @@
         android:theme="@style/AppTheme"
         tools:ignore="GoogleAppIndexingWarning">
         <activity
-            android:name=".ui.main.MainActivity"
+            android:name="com.webers.applock.ui.main.MainActivity"
             android:excludeFromRecents="true"
             android:label="AppLock India"
             android:launchMode="singleTop"
@@ -57,41 +57,41 @@
             </intent-filter>
         </activity>
 
-        <activity android:name=".ui.newpattern.CreateNewPatternActivity" />
+        <activity android:name="com.webers.applock.ui.newpattern.CreateNewPatternActivity" />
 
         <activity
-            android:name=".ui.overlay.activity.OverlayValidationActivity"
+            android:name="com.webers.applock.ui.overlay.activity.OverlayValidationActivity"
             android:excludeFromRecents="true" />
 
         <activity
-            android:name=".ui.background.BackgroundsActivity"
+            android:name="com.webers.applock.ui.background.BackgroundsActivity"
             android:theme="@style/AppTheme.NoActionBar" />
 
         <activity
-            android:name=".ui.browser.BrowserActivity"
+            android:name="com.webers.applock.ui.browser.BrowserActivity"
             android:theme="@style/AppTheme.NoActionBar" />
 
         <activity
-            android:name=".ui.vault.VaultActivity"
+            android:name="com.webers.applock.ui.vault.VaultActivity"
             android:theme="@style/AppTheme.NoActionBar" />
 
         <activity
-            android:name=".ui.callblocker.CallBlockerActivity"
+            android:name="com.webers.applock.ui.callblocker.CallBlockerActivity"
             android:theme="@style/AppTheme.NoActionBar" />
 
         <activity
-            android:name=".ui.intruders.IntrudersPhotosActivity"
+            android:name="com.webers.applock.ui.intruders.IntrudersPhotosActivity"
             android:theme="@style/AppTheme.NoActionBar" />
 
-        <service android:name=".service.AppLockerService" />
+        <service android:name="com.webers.applock.service.AppLockerService" />
 
-        <receiver android:name=".service.receiver.BootCompleteReceiver">
+        <receiver android:name="com.webers.applock.service.receiver.BootCompleteReceiver">
             <intent-filter>
                 <action android:name="android.intent.action.BOOT_COMPLETED" />
             </intent-filter>
         </receiver>
 
-        <receiver android:name=".ui.callblocker.service.CallReceiver">
+        <receiver android:name="com.webers.applock.ui.callblocker.service.CallReceiver">
             <intent-filter>
                 <action android:name="android.intent.action.PHONE_STATE" />
             </intent-filter>
@@ -101,7 +101,7 @@
         </receiver>
 
         <service
-            android:name=".ui.callblocker.service.CallService"
+            android:name="com.webers.applock.ui.callblocker.service.CallService"
             android:permission="android.permission.BIND_INCALL_SERVICE">
             <meta-data
                 android:name="android.telecom.IN_CALL_SERVICE_UI"
@@ -112,7 +112,7 @@
         </service>
 
         <service
-            android:name=".ui.callblocker.service.CallBlockerScreeningService"
+            android:name="com.webers.applock.ui.callblocker.service.CallBlockerScreeningService"
             android:permission="android.permission.BIND_SCREENING_SERVICE">
             <intent-filter>
                 <action android:name="android.telecom.CallScreeningService" />

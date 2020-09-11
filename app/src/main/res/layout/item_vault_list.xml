@@ -4,11 +4,11 @@
 
     <data>
         <variable name="viewState"
-                  type="com.matrix.applock.ui.vault.vaultlist.VaultListItemViewState"/>
+                  type="com.webers.applock.ui.vault.vaultlist.VaultListItemViewState"/>
     </data>
 
 
-    <com.matrix.applock.ui.common.view.SquareLayout
+    <com.webers.applock.ui.common.view.SquareLayout
             xmlns:android="http://schemas.android.com/apk/res/android"
             android:id="@+id/squareLayoutItem"
             android:layout_width="match_parent"
@@ -21,6 +21,6 @@
                 android:scaleType="centerCrop"
                 app:file="@{viewState.getDecryptedCachePath}"
                 android:layout_margin="@dimen/margin_4dp"/>
-    </com.matrix.applock.ui.common.view.SquareLayout>
+    </com.webers.applock.ui.common.view.SquareLayout>
 
 </layout>

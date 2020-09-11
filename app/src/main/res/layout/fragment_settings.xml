@@ -7,11 +7,11 @@
 
         <variable
             name="viewState"
-            type="com.matrix.applock.ui.settings.SettingsViewState" />
+            type="com.webers.applock.ui.settings.SettingsViewState" />
 
         <variable
             name="fingerPrintStatus"
-            type="com.matrix.applock.ui.settings.FingerPrintStatusViewState" />
+            type="com.webers.applock.ui.settings.FingerPrintStatusViewState" />
     </data>
 
     <ScrollView

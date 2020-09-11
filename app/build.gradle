@@ -21,7 +21,7 @@ android {
     }
 
     defaultConfig {
-        applicationId "com.matrix.applock"
+        applicationId "com.webers.applock"
         minSdkVersion 21
         targetSdkVersion 30
         versionCode 1

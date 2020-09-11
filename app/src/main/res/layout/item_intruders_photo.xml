@@ -6,11 +6,11 @@
 
         <variable
             name="viewState"
-            type="com.matrix.applock.ui.intruders.IntruderPhotoItemViewState" />
+            type="com.webers.applock.ui.intruders.IntruderPhotoItemViewState" />
     </data>
 
 
-    <com.matrix.applock.ui.common.view.SquareLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    <com.webers.applock.ui.common.view.SquareLayout xmlns:android="http://schemas.android.com/apk/res/android"
         android:id="@+id/squareLayoutItem"
         android:layout_width="match_parent"
         android:layout_height="match_parent">
@@ -23,6 +23,6 @@
             android:scaleType="centerCrop"
             app:file="@{viewState.getFilePath()}"
             app:imageSize="@{viewState.imageSize}" />
-    </com.matrix.applock.ui.common.view.SquareLayout>
+    </com.webers.applock.ui.common.view.SquareLayout>
 
 </layout>

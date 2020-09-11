@@ -4,7 +4,7 @@
     <data>
         <variable
             name="viewState"
-            type="com.matrix.applock.ui.vault.vaultlist.VaultListViewState" />
+            type="com.webers.applock.ui.vault.vaultlist.VaultListViewState" />
     </data>
 
     <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"

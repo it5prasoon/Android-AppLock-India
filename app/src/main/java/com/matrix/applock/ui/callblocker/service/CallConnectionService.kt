@@ -1,8 +1,0 @@
-package com.matrix.applock.ui.callblocker.service
-
-import android.annotation.TargetApi
-import android.os.Build
-import android.telecom.InCallService
-
-@TargetApi(Build.VERSION_CODES.M)
-class CallService : InCallService()

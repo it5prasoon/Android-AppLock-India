@@ -3,7 +3,7 @@
 
     <data>
         <variable name="viewState"
-                  type="com.matrix.applock.ui.callblocker.log.CallLogViewState"/>
+                  type="com.webers.applock.ui.callblocker.log.CallLogViewState"/>
     </data>
 
 

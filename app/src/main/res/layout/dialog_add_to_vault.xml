@@ -6,7 +6,7 @@
 
         <variable
             name="viewState"
-            type="com.matrix.applock.ui.vault.addingvaultdialog.AddToVaultViewState" />
+            type="com.webers.applock.ui.vault.addingvaultdialog.AddToVaultViewState" />
     </data>
 
     <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
