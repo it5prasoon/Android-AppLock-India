@@ -17,7 +17,12 @@
 
     <uses-permission android:name="android.permission.READ_PHONE_STATE" />
 
+    <uses-feature
+        android:name="android.hardware.fingerprint"
+        android:required="true" />
+
     <uses-permission android:name="android.permission.USE_FINGERPRINT" />
+
     <uses-permission android:name="com.fingerprints.service.ACCESS_FINGERPRINT_MANAGER" />
     <uses-permission android:name="com.samsung.android.providers.context.permission.WRITE_USE_APP_FEATURE_SURVEY" />
 
@@ -124,7 +129,7 @@
 
         <meta-data
             android:name="com.google.android.gms.ads.APPLICATION_ID"
-            android:value="@string/mobile_ad_id"/>
+            android:value="@string/mobile_ad_id" />
 
 
     </application>

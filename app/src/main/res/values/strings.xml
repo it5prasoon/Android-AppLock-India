@@ -17,9 +17,9 @@
 
     <string name="app_security_description">Recommended to lock app</string>
 
-    <string name="notification_protecting_title">Protecting your apps</string>
+    <string name="notification_protecting_title">AppLocker India is protecting your Apps</string>
 
-    <string name="notification_protecting_description">Lock your apps to protect your privacy.</string>
+    <string name="notification_protecting_description">Running in Background to protect your privacy.</string>
 
     <string name="notification_permission_need_title">Enable permission to protection</string>
 

@@ -4,12 +4,15 @@ import android.app.Service
 import android.app.usage.UsageEvents
 import android.app.usage.UsageStatsManager
 import android.content.Context
+import android.os.Build
+import androidx.annotation.RequiresApi
 import io.reactivex.Flowable
 import java.util.concurrent.TimeUnit
 import javax.inject.Inject
 
 class AppBackgroundObservable @Inject constructor(val context: Context) {
 
+    @RequiresApi(Build.VERSION_CODES.LOLLIPOP_MR1)
     fun get(): Flowable<String> {
         return Flowable.interval(100, TimeUnit.MILLISECONDS)
             .map {

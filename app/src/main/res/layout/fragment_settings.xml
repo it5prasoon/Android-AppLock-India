@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
-<layout xmlns:android="http://schemas.android.com/apk/res/android"
+<layout xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto">
 
     <data>
@@ -19,7 +20,7 @@
 
         <LinearLayout
             android:layout_width="match_parent"
-            android:layout_height="match_parent"
+            android:layout_height="wrap_content"
             android:orientation="vertical">
 
             <androidx.cardview.widget.CardView
@@ -139,7 +140,7 @@
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
                             android:layout_centerVertical="true"
-                            android:layout_toLeftOf="@+id/switchStealth"
+                            android:layout_toStartOf="@+id/switchStealth"
                             android:background="?attr/selectableItemBackground"
                             android:clickable="true"
                             android:focusable="true"
@@ -177,7 +178,8 @@
                             android:layout_alignParentEnd="true"
                             android:layout_centerVertical="true"
                             android:layout_margin="@dimen/margin_16dp"
-                            android:checked="@{viewState.hiddenDrawingMode}" />
+                            android:checked="@{viewState.hiddenDrawingMode}"
+                            tools:ignore="UseSwitchCompatOrMaterialXml" />
 
                     </RelativeLayout>
 
@@ -191,7 +193,7 @@
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
                             android:layout_centerVertical="true"
-                            android:layout_toLeftOf="@+id/switchFingerPrint"
+                            android:layout_toStartOf="@+id/switchFingerPrint"
                             android:background="?attr/selectableItemBackground"
                             android:clickable="true"
                             android:focusable="true"
@@ -230,7 +232,8 @@
                             android:layout_centerVertical="true"
                             android:layout_margin="@dimen/margin_16dp"
                             android:checked="@{viewState.fingerPrintEnabled}"
-                            android:enabled="@{fingerPrintStatus.fingerPrintCheckBoxEnabled}" />
+                            android:enabled="@{fingerPrintStatus.fingerPrintCheckBoxEnabled}"
+                            tools:ignore="UseSwitchCompatOrMaterialXml" />
 
                     </RelativeLayout>
 
@@ -273,7 +276,7 @@
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
                             android:layout_centerVertical="true"
-                            android:layout_toLeftOf="@+id/switchEnableIntrudersCatcher"
+                            android:layout_toStartOf="@+id/switchEnableIntrudersCatcher"
                             android:background="?attr/selectableItemBackground"
                             android:clickable="true"
                             android:focusable="true"
@@ -310,7 +313,8 @@
                             android:layout_alignParentEnd="true"
                             android:layout_centerVertical="true"
                             android:layout_margin="@dimen/margin_16dp"
-                            android:checked="@{viewState.intrudersCatcherEnabled}" />
+                            android:checked="@{viewState.intrudersCatcherEnabled}"
+                            tools:ignore="UseSwitchCompatOrMaterialXml" />
 
                     </RelativeLayout>
 
