@@ -588,7 +588,7 @@ object FilePathHelper {
         var `is`: InputStream? = null
         var bos: BufferedOutputStream? = null
         try {
-            `is` = context.getContentResolver().openInputStream(uri)
+            `is` = context.contentResolver.openInputStream(uri)
             bos = BufferedOutputStream(FileOutputStream(destinationPath, false))
             val buf = ByteArray(1024)
             `is`!!.read(buf)

@@ -12,7 +12,7 @@ import io.reactivex.schedulers.Schedulers
 import java.io.File
 import java.io.FileOutputStream
 
-
+@SuppressWarnings("deprecation")
 class FrontPictureLiveData(val app: Application, private val destinationImageFile: File) :
     MutableLiveData<FrontPictureState>() {
 
