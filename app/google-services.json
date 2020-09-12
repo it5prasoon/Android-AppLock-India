@@ -1,34 +1,34 @@
 {
   "project_info": {
-    "project_number": "659956409987",
-    "firebase_url": "https://applocker-815a1.firebaseio.com",
-    "project_id": "applocker-815a1",
-    "storage_bucket": "applocker-815a1.appspot.com"
+    "project_number": "29589752894",
+    "firebase_url": "https://applock-india.firebaseio.com",
+    "project_id": "applock-india",
+    "storage_bucket": "applock-india.appspot.com"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:659956409987:android:fdcfb127b76863b0f55db6",
+        "mobilesdk_app_id": "1:29589752894:android:ca3dd82396d86c8a32556f",
         "android_client_info": {
           "package_name": "com.webers.applock"
         }
       },
       "oauth_client": [
         {
-          "client_id": "659956409987-b6u3sp1hcm2mighukgddfd8b24j13689.apps.googleusercontent.com",
+          "client_id": "29589752894-522nmcotg0qkqoe9cs3g8vachid125ji.apps.googleusercontent.com",
           "client_type": 3
         }
       ],
       "api_key": [
         {
-          "current_key": "AIzaSyDTG7OKJuj5DB9PsUeg1abknvyvD310zuk"
+          "current_key": "AIzaSyBBy85f02Z9A1A9INJ-oeHQ6N5y_3f-0jQ"
         }
       ],
       "services": {
         "appinvite_service": {
           "other_platform_oauth_client": [
             {
-              "client_id": "659956409987-b6u3sp1hcm2mighukgddfd8b24j13689.apps.googleusercontent.com",
+              "client_id": "29589752894-522nmcotg0qkqoe9cs3g8vachid125ji.apps.googleusercontent.com",
               "client_type": 3
             }
           ]
