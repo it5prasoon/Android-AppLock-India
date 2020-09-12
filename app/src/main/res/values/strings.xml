@@ -5,10 +5,10 @@
     <string name="action_settings">Settings</string>
 
     <!-- AD unit ids-->
-    <string name="mobile_ad_id" translatable="false">ca-app-pub-7871339030028560~7977335470</string>
-    <string name="banner_ad_unit_id" translatable="false">ca-app-pub-7871339030028560/1707247077</string>
-    <string name="overlay_banner_ad_unit_id" translatable="false">ca-app-pub-7871339030028560/1707247077</string>
-    <string name="dashboard_banner_ad_unit_id" translatable="false">ca-app-pub-7871339030028560/1707247077</string>
+    <string name="mobile_ad_id" translatable="false">ca-app-pub-3505452563298523~5829931705</string>
+    <string name="banner_ad_unit_id" translatable="false">ca-app-pub-3505452563298523/8994510463</string>
+    <string name="overlay_banner_ad_unit_id" translatable="false">ca-app-pub-3505452563298523/8994510463</string>
+    <string name="dashboard_banner_ad_unit_id" translatable="false">ca-app-pub-3505452563298523/8994510463</string>
 
 
     <string name="share">Share</string>
