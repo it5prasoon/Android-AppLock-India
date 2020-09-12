@@ -11,9 +11,6 @@ object PermissionChecker {
 
     @RequiresApi(Build.VERSION_CODES.LOLLIPOP)
     fun checkUsageAccessPermission(context: Context): Boolean {
-        if (Build.VERSION.SDK_INT <= Build.VERSION_CODES.KITKAT) {
-            return true
-        }
 
         return try {
             val packageManager = context.packageManager
