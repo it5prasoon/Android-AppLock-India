@@ -35,7 +35,7 @@ class RemoveFromVaultDialog : BaseBottomSheetDialog<RemoveFromVaultViewModel>() 
 
         val vaultMediaEntity = arguments?.getParcelable<VaultMediaEntity>(KEY_VAULT_MEDIA_ENTITY)
 
-        viewModel.getRemoveFromVaultViewStateLiveData().observe(this, Observer { viewState ->
+        viewModel.getRemoveFromVaultViewStateLiveData().observe(viewLifecycleOwner, Observer { viewState ->
             binding.viewState = viewState
             binding.executePendingBindings()
 

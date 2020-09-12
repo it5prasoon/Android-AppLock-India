@@ -36,7 +36,7 @@ class AddToVaultDialog : BaseBottomSheetDialog<AddToVaultViewModel>() {
         val filePath = arguments?.getStringArrayList(KEY_FILE_PATH)
         val mediaType = arguments?.getSerializable(KEY_MEDIA_TYPE) as VaultMediaType
 
-        viewModel.getAddToVaultViewStateLiveData().observe(this, Observer { viewState ->
+        viewModel.getAddToVaultViewStateLiveData().observe(viewLifecycleOwner, Observer { viewState ->
             binding.viewState = viewState
             binding.executePendingBindings()
 

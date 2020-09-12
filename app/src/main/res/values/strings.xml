@@ -123,8 +123,8 @@
     <!-- Browser Activity texts -->
     <string name="instagram">Instagram</string>
     <string name="youtube">Youtube</string>
-    <string name="title_browser_empty">Safe.Secure.Private.</string>
-    <string name="subtitle_browser_empty">Surf on the internet. Securely.</string>
+    <string name="title_browser_empty">Incognito Browser</string>
+    <string name="subtitle_browser_empty">Safe.Secure.Private</string>
     <string name="bookmarks">Bookmarks</string>
     <string name="under_development">Under development. Will be available soon.</string>
     <string name="title_call_blocker">Call Blocker</string>
@@ -153,6 +153,7 @@
     <string name="dialog_black_list_delete_action_cancel">Cancel</string>
     <string name="dialog_title_add_to_vault">Processing</string>
     <string name="dialog_description_process">Your media is removing from gallery and adding to your vault.</string>
+    <string name="dialog_description_process_removal" translatable="false">Your media is removing from vault and adding to your gallery.</string>
     <string name="dialog_action_process" translatable="false">%d%%</string>
 
     <string name="dialog_title_removal_confirmation">Removal Confirmation</string>

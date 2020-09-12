@@ -4,7 +4,7 @@ import com.webers.applock.repository.UserPreferencesRepository
 import com.webers.applock.ui.RxAwareViewModel
 import javax.inject.Inject
 
-class VaultViewModel @Inject constructor(val userPreferencesRepository: UserPreferencesRepository) :
+class VaultViewModel @Inject constructor(private val userPreferencesRepository: UserPreferencesRepository) :
     RxAwareViewModel() {
 
     fun shouldShowRateUs(): Boolean {

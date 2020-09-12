@@ -41,7 +41,7 @@
             android:layout_marginEnd="@dimen/margin_16dp"
             android:fontFamily="@font/avenir_regular"
             android:gravity="center"
-            android:text="@string/dialog_description_process"
+            android:text="@string/dialog_description_process_removal"
             android:textColor="@color/colorDialogTitle"
             android:textSize="@dimen/text_size_medium" />
 
