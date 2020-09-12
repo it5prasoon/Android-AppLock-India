@@ -9,7 +9,7 @@
         <com.google.android.material.appbar.AppBarLayout
                 android:layout_height="wrap_content"
                 android:layout_width="match_parent"
-                android:background="@drawable/bg_gradient_background"
+                android:background="@drawable/bg_gradient_main"
                 android:theme="@style/AppTheme.AppBarOverlay">
 
             <androidx.appcompat.widget.Toolbar
