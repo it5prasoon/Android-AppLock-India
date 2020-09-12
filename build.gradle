@@ -37,4 +37,16 @@ task clean(type: Delete) {
     delete rootProject.buildDir
 }
 
+ext {
+    configuration = [
+            package          : "com.webers.applock",
+            compileSdkVersion: 30,
+            targetSdkVersion : 30,
+            minSdkVersion    : 21,
+            devMinSdkVersion : 23,
+            versionCode      : 37,
+            versionName      : "1.5.5"
+    ]
+}
+
 
