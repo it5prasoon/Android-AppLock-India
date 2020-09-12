@@ -11,22 +11,27 @@ A app securing your application built with Kotlin.
 
 <h2> List of Features:- </h2>
 
-1. Lock any app
-2. Re-lock policy
-3. Multi-lock feature (Pro version only): Add different locks to different apps
-4. Auto-lock base on Time or Wi-Fi (Pro version only)
-5. Disguise feature (Pro version only)
-6. Theme support
-7. Widget for quick lock and unlock
-8. Quick lock switcher on status bar
-9. Lock Android installer
-10. Lock incoming or outgoing calls
-11. Lock access to phone
-12. Prevent AppLock uninstallation
-13. Auto restart (to prevent app from being killed by task killers)
+1. Lock apps using pattern and fingerprint
+2. Vault Image/Video file (File Encryption/Decryption)
+3. Block call (Blacklist)
+4. Private Browser
+5. Take intruders photo secretly (Camera 1 API)
 
-
-
-<h2>TODO</h2> 
-1. To make it work with all Android Api 
+<h2> What can I learn </h2>
+1. RxJava 2
+2. Dagger 2
+3. Room Database
+4. ViewModel & LiveData
+5. Work Manager
+6. FingerPrint API
+7. App Usage Stat Manager (Is any app comes to foreground/background)
+8. Background & Foreground Services (covers all android versions)
+9. MVVM pattern using ViewState
+10. DataBinding; Binding Adapter, Binding Conversion and more.
+11. Kotlin Delegates
+12. File Cryptography in Android
+13. Call Screening Service (For creating custom dialer app)
+14. Custom Browser
+15. Camera 1 API to take photo without preview.
+16. Overlay Activity from background Service
   
