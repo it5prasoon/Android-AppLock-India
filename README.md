@@ -17,7 +17,8 @@ A app securing your application built with Kotlin.
 4. Private Browser
 5. Take intruders photo secretly (Camera 1 API)
 
-<h2> What can I learn </h2>
+<h2> What can I learn:- </h2>
+
 1. RxJava 2
 2. Dagger 2
 3. Room Database
