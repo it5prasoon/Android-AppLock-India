@@ -1,6 +1,5 @@
 <h1 align="center"> Applock </h1>
 
-<style>.heart{color:#e25555;}</style>
 Made with <span class="heart">❤</span> in India
 
 [![Language](https://img.shields.io/badge/java_kotlin-awesome-blue/it5prasoon/Applock?branch=master)](https://kotlinlang.org/)
