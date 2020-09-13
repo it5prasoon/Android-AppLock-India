@@ -1,4 +1,4 @@
-<h1 align="center"> Applock </h1>
+<h1 align="center"> Applock India </h1>
 
 Made with <span class="heart">❤</span> in India
 
