@@ -28,7 +28,6 @@ import io.reactivex.BackpressureStrategy
 import io.reactivex.Flowable
 import io.reactivex.subjects.PublishSubject
 import android.content.IntentFilter
-import com.bugsnag.android.Bugsnag
 import com.webers.applock.data.SystemPackages
 import com.webers.applock.ui.permissions.PermissionChecker
 import io.reactivex.disposables.Disposable
@@ -157,13 +156,11 @@ class AppLockerService : DaggerService() {
         allDisposables += lockedAppsDao.getLockedApps()
             .subscribeOn(Schedulers.io())
             .observeOn(AndroidSchedulers.mainThread())
-            .subscribe(
-                { lockedAppList ->
-                    lockedAppPackageSet.clear()
-                    lockedAppList.forEach { lockedAppPackageSet.add(it.parsePackageName()) }
-                    SystemPackages.getSystemPackages().forEach { lockedAppPackageSet.add(it) }
-                },
-                { error -> Bugsnag.notify(error) })
+            .subscribe { lockedAppList ->
+                lockedAppPackageSet.clear()
+                lockedAppList.forEach { lockedAppPackageSet.add(it.parsePackageName()) }
+                SystemPackages.getSystemPackages().forEach { lockedAppPackageSet.add(it) }
+            }
     }
 
     private fun observeOverlayView() {
@@ -195,9 +192,7 @@ class AppLockerService : DaggerService() {
             .get()
             .subscribeOn(Schedulers.io())
             .observeOn(AndroidSchedulers.mainThread())
-            .subscribe(
-                { foregroundAppPackage -> onAppForeground(foregroundAppPackage) },
-                { error -> Bugsnag.notify(error) })
+            .subscribe { foregroundAppPackage -> onAppForeground(foregroundAppPackage) }
         allDisposables.add(foregroundAppDisposable!!)
     }
 

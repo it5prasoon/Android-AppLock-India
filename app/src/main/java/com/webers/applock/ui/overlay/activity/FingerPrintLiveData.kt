@@ -2,7 +2,6 @@ package com.webers.applock.ui.overlay.activity
 
 import android.content.Context
 import androidx.lifecycle.MutableLiveData
-import com.bugsnag.android.Bugsnag
 import com.crashlytics.android.Crashlytics
 import com.wei.android.lib.fingerprintidentify.FingerprintIdentify
 import com.wei.android.lib.fingerprintidentify.base.BaseFingerprint
@@ -18,7 +17,7 @@ class FingerPrintLiveData(context: Context) :
             fingerprintIdentify.setSupportAndroidL(true)
             fingerprintIdentify.init()
         } catch (exception: Exception) {
-            Bugsnag.notify(exception)
+
         }
     }
 

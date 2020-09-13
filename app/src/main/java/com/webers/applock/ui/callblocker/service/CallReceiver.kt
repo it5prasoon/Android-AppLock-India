@@ -5,7 +5,6 @@ import android.content.Intent
 import android.os.Build
 import android.telephony.TelephonyManager
 import com.android.internal.telephony.ITelephony
-import com.bugsnag.android.Bugsnag
 import com.google.i18n.phonenumbers.PhoneNumberUtil
 import com.webers.applock.data.database.callblocker.blacklist.BlackListItemEntity
 import com.webers.applock.data.database.callblocker.calllog.CallLogItemEntity
@@ -54,29 +53,27 @@ class CallReceiver : DaggerBroadcastReceiver() {
             .firstOrError()
             .subscribeOn(Schedulers.io())
             .observeOn(AndroidSchedulers.mainThread())
-            .subscribe(
-                { blackList ->
-                    var isInBlackList = false
-                    var itemEntity: BlackListItemEntity? = null
-                    blackList
-                        .takeWhile { isInBlackList.not() }
-                        .forEach {
-                            val matchType =
-                                PhoneNumberUtil.getInstance()
-                                    .isNumberMatch(it.phoneNumber, incomingCallNumber)
-                            if (isPhoneMatch(matchType)) {
-                                isInBlackList = true
-                                itemEntity = it
-                            }
+            .subscribe { blackList ->
+                var isInBlackList = false
+                var itemEntity: BlackListItemEntity? = null
+                blackList
+                    .takeWhile { isInBlackList.not() }
+                    .forEach {
+                        val matchType =
+                            PhoneNumberUtil.getInstance()
+                                .isNumberMatch(it.phoneNumber, incomingCallNumber)
+                        if (isPhoneMatch(matchType)) {
+                            isInBlackList = true
+                            itemEntity = it
                         }
-
-
-                    if (isInBlackList) {
-                        reject(context)
-                        itemEntity?.let { saveCallLog(it) }
                     }
-                },
-                { error -> Bugsnag.notify(error) })
+
+
+                if (isInBlackList) {
+                    reject(context)
+                    itemEntity?.let { saveCallLog(it) }
+                }
+            }
     }
 
     private fun isPhoneMatch(matchResult: PhoneNumberUtil.MatchType): Boolean {

@@ -4,7 +4,6 @@ apply plugin: 'kotlin-android-extensions'
 apply plugin: 'kotlin-kapt'
 apply plugin: 'io.fabric'
 apply plugin: 'com.android.application'
-apply plugin: 'com.bugsnag.android.gradle'
 
 def configuration = rootProject.ext.configuration
 
@@ -127,7 +126,6 @@ dependencies {
     implementation 'com.googlecode.libphonenumber:libphonenumber:8.11.3'
     implementation 'org.ocpsoft.prettytime:prettytime:4.0.1.Final'
 
-    implementation 'com.bugsnag:bugsnag-android:4.13.0'
     implementation 'com.facebook.conceal:conceal:2.0.2'
     implementation 'com.github.tbruyelle:rxpermissions:0.10.2'
 

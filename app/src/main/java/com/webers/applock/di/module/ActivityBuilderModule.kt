@@ -13,9 +13,7 @@ import com.webers.applock.ui.vault.VaultActivity
 import dagger.Module
 import dagger.android.ContributesAndroidInjector
 
-/**
- * Created by mertsimsek on 12/11/2017.
- */
+
 @Module
 abstract class ActivityBuilderModule {
 

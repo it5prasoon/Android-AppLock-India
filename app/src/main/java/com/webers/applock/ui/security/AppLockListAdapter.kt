@@ -8,7 +8,6 @@ import com.webers.applock.ui.security.viewholder.HeaderViewHolder
 import java.lang.IllegalArgumentException
 import java.lang.IllegalStateException
 import androidx.recyclerview.widget.DiffUtil
-import com.bugsnag.android.Bugsnag
 import io.reactivex.Single
 import io.reactivex.android.schedulers.AndroidSchedulers
 import io.reactivex.schedulers.Schedulers
@@ -39,8 +38,7 @@ class AppLockListAdapter : RecyclerView.Adapter<RecyclerView.ViewHolder>() {
                     this.itemViewStateList.addAll(itemViewStateList)
                     it.dispatchUpdatesTo(this)
                 },
-                { error ->
-                    Bugsnag.notify(error)
+                {
                     this.itemViewStateList.clear()
                     this.itemViewStateList.addAll(itemViewStateList)
                     notifyDataSetChanged()
