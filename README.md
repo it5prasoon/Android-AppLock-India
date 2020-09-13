@@ -9,7 +9,7 @@ Made with <span class="heart">❤</span> in India
 
 A app securing your application built with Kotlin.
 
-You can download the application from playStore from 17 sep. 2020. The link is https://play.google.com/store/apps/details?id=com.webers.applock.online&hl=en
+You can download the application from playStore from 17 sep. 2020. The link is https://play.google.com/store/apps/details?id=com.webers.applock&hl=en
 
 
 
