@@ -7,6 +7,8 @@ import android.os.Handler
 import com.webers.applock.R
 import com.webers.applock.ui.main.MainActivity
 
+/* Last Edited by Prasoon Kumar */
+
 class SplashScreen : AppCompatActivity() {
     lateinit var handler: Handler
 

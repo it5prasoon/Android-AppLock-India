@@ -1,4 +1,8 @@
 package com.webers.applock
+/*
+    Edited and updated
+    by Prasoon Kumar
+ */
 
 import android.content.Context
 import androidx.multidex.MultiDex

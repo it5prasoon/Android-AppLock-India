@@ -1,5 +1,8 @@
 package com.webers.applock.data
-
+/*
+    Edited and updated
+    by Prasoon Kumar
+ */
 import android.graphics.drawable.Drawable
 import com.webers.applock.data.database.lockedapps.LockedAppEntity
 

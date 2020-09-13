@@ -1,5 +1,8 @@
 package com.webers.applock.ui.newpattern
-
+/*
+    Edited and updated
+    by Prasoon Kumar
+ */
 import android.annotation.TargetApi
 import android.app.Activity
 import android.content.Context
