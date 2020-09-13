@@ -1,11 +1,16 @@
 <h1 align="center"> Applock </h1>
 
+<style>.heart{color:#e25555;}</style>
+Made with <span class="heart">❤</span> in India
+
 [![Language](https://img.shields.io/badge/java_kotlin-awesome-blue/it5prasoon/Applock?branch=master)](https://kotlinlang.org/)
 [![Layout](https://img.shields.io/badge/fragment-layout-important/it5prasoon/Applock?branch=master)](https://developer.android.com/training/basics/fragments/creating)
 [![Android](https://img.shields.io/badge/android-all-success/it5prasoon/Applock?branch=master)](https://developer.android.com/) 
 
 
 A app securing your application built with Kotlin.
+
+You can download the application from playStore from 17 sep. 2020. The link is https://play.google.com/store/apps/details?id=com.webers.applock.online&hl=en
 
 
 
