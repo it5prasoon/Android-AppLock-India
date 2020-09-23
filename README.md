@@ -39,4 +39,6 @@ You can download the application from playStore from 17 sep. 2020. The link is h
 14. Custom Browser
 15. Camera 1 API to take photo without preview.
 16. Overlay Activity from background Service
+
+
   
