@@ -30,7 +30,7 @@
         android:name=".AppLockerApplication"
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
-        android:label="AppLock India"
+        android:label="App Secure | Made in India"
         android:supportsRtl="true"
         android:theme="@style/AppTheme"
         tools:ignore="GoogleAppIndexingWarning">
@@ -38,7 +38,7 @@
             android:name=".ui.splash.SplashScreen"
             android:theme="@style/Theme.AppCompat.DayNight.NoActionBar"
             android:excludeFromRecents="true"
-            android:label="AppLock India"
+            android:label="App Secure | Made in India"
             android:launchMode="singleTop">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
