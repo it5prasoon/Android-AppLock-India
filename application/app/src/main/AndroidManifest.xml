@@ -38,7 +38,7 @@
             android:name=".ui.splash.SplashScreen"
             android:theme="@style/Theme.AppCompat.DayNight.NoActionBar"
             android:excludeFromRecents="true"
-            android:label="App Secure | Made in India"
+            android:label="AppLock - Made for Bharat"
             android:launchMode="singleTop">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
